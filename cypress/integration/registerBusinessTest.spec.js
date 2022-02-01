@@ -50,7 +50,7 @@ describe('Registration of Business', () =>{
     })
 
     it("Register business account without credit card", () => {
-        cy.visit("https://stag-cms.udrafter.link/")
+        cy.visit("https://stag-cms.udrafter.link/");
         cy.get('.card > .card-footer > .row:nth-child(3) > .col-sm-12 > a').click();
         cy.get(':nth-child(3) > .card > .card-content > a > h3').click();
         cy.get('.custom-wizard-skip-btn').click();
