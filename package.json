@@ -1,0 +1,21 @@
+{
+  "name": "Udrafter Test Suite with Cypress",
+  "version": "1.0.0",
+  "description": "Regression test scenario",
+  "main": "1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Test"
+  ],
+  "author": "Pavel",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "faker": "^6.6.6"
+  },
+  "dependencies": {
+    "chance": "^1.1.8"
+  }
+}

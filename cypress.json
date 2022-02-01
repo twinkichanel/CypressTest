@@ -1,0 +1,5 @@
+{
+    "baseUrl": "https://stag-cms.udrafter.link/login",
+    "ignoreTestFiles": "**/examples/*",
+    "chromeWebSecurity": false
+}
